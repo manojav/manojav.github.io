@@ -38,6 +38,12 @@
         p.indended {
             margin-left: 10%;
         }
+        .slide-large-device{display: block;}
+        .slide-small-device{display: none;}
+        @media (max-width: 695px) {
+            .slide-large-device{display: none;}
+            .slide-small-device{display: block;}
+        }
     </style>
 </head>
 <body style="color:#f69d01; background-color:black;">
@@ -49,48 +55,46 @@
     </div>-->
     
     <div>
-        <img src="slide00.gif" alt="e2a" class="responsive" style="width:100%; height: auto">
+        <img src="slide00.gif" class="responsive" style="width:100%; height: auto" alt="lidarlionn">
     </div>
     <div>
         <picture>
-            <source srcset="slide00(9x16).svg" media="(max-width:695px)" />
-            <img src="slide00.svg" alt="e2a" class="responsive" style="width:100%; height: auto">
+            <img src="slide00(9x16).svg" class="responsive slide-small-device" style="width:100%; height: auto" alt="lidarlionn">
+            <img src="slide00.svg" class="responsive slide-large-device" style="width:100%; height: auto" alt="lidarlionn">
         </picture>
     </div>
     <div>
         <picture>
-            <source srcset="slide01(9x16).svg" media="(max-width: 695px)" />
-            <img src="slide01.png" alt="e2a" class="responsive" style="width:100%; height: auto">
+            <img src="slide01(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
+            <img src="slide01.png" class="responsive slide-large-device" style="width:100%; height: auto" alt="lidarlionn">
         </picture>
     </div>
     <div>
         <picture>
-            <source srcset="slide02(9x16).svg" media="(max-width: 695px)" />
-            <img src="slide02.png" alt="e2a" class="responsive" style="width:100%; height: auto">
+            <img src="slide02(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
+            <img src="slide02.png" class="responsive slide-large-device" style="width:100%; height: auto" alt="lidarlionn">
         </picture>
     </div>
     <div>
         <picture>
-            <source srcset="slide03(9x16).svg" media="(max-width: 695px)" />
-            <img src="slide03.png" alt="e2a" class="responsive" style="width:100%; height: auto">
+            <img src="slide03(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
+            <img src="slide03.png" class="responsive slide-large-device" style="width:100%; height: auto" alt="lidarlionn">
         </picture>
     </div>
     <div>
         <picture>
-            <source srcset="slide04(9x16).svg" media="(max-width: 695px)" />
-            <img src="slide04.png" alt="e2a" class="responsive" style="width:100%; height: auto">
+            <img src="slide04(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
+            <img src="slide04.png" class="responsive slide-large-device" style="width:100%; height: auto" alt="lidarlionn">
         </picture>
     </div>
     <div>
         <picture>
-            <source srcset="slide05(9x16).svg" media="(max-width: 695px)" />
-            <img style="width: 100%; height: auto" />
+            <img src="slide05(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
         </picture>
     </div>
     <div>
         <picture>
-            <source srcset="slide06(9x16).svg" media="(max-width: 695px)" />
-            <img style="width: 100%; height: auto" />
+            <img srcset="slide06(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
         </picture>
     </div>
 
@@ -117,8 +121,8 @@
     <!-- break-->
     <div>
         <picture>
-            <source srcset="slide07(9x16).svg" media="(max-width: 695px)" />
-            <img src="slide06.png" alt="e2a" class="responsive" style="width:100%; height: auto">
+            <img  src="slide07(9x16).svg" class="responsive slide-small-device" alt="lidarlionn"/>
+            <img src="slide06.png" class="responsive slide-large-device" style="width:100%; height: auto">
         </picture>
     </div>
 
