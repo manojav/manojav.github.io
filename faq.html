@@ -3,9 +3,11 @@
 <head>
     <title>faq</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" href="style.css" rel="stylesheet">
     <style>
         div.gallery {
-            border: 1px solid #000;
+            border: 1px solid white;
+            padding: 15px;
         }
 
             div.gallery:hover {
@@ -26,6 +28,7 @@
             float: left;
             width: 24.9%;
         }
+
         @media only screen and (max-width: 700px) {
             .responsive {
                 width: 49.99999%;
@@ -38,13 +41,15 @@
                 width: 100%;
             }
         }
+
         .header {
             text-align: center;
-            background: rgb(251, 219, 145);
-            color: white;
+            color: rgb(41,50,52);
             font-family: Arial;
             font-size: 30px;
+            margin-top: 4%;
         }
+
         .button {
             background-color: rgb(246,157,1);
             border: none;
@@ -54,14 +59,40 @@
             display: inline-block;
             font-size: 16px;
             cursor: pointer;
-            margin-left: 0px;
+            margin-left: 10px;
+            margin-top: 10px;
         }
-        .button:hover{
-            background-color:lightcoral;
+
+        .button:hover {
+            background-color: rgb(255,204,0);
         }
     </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    $('i').css({
+                        "opacity": "1", "pointer-events": "auto"
+                    });
+                }
+                else {
+                    $('i').css({
+                        "opacity": "0", "pointer-events": "none"
+                    });
+                }
+            });
+            $('i').click(function () {
+                $('html').animate({ scrollTop: 0 }, 500);
+            });
+        });
+    </script>
 </head>
-<body style="background-color:black">
+<body style="background-color:white">
+
+    <i class="fas fa-chevron-up"></i>
+
     <button class="button" onclick="goBack()"> << Back </button>
     <script>
         function goBack() {
@@ -75,112 +106,112 @@
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ001.png" alt="faq">
+                <img src="faq01.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ002.png" alt="faq">
+                <img src="faq02.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ003.png" alt="faq">
+                <img src="faq03.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ004.png" alt="faq">
+                <img src="faq04.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ005.png" alt="faq">
+                <img src="faq05.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ006.png" alt="faq">
+                <img src="faq06.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ007.png" alt="faq">
+                <img src="faq07.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ008.png" alt="faq">
+                <img src="faq08.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ009.png" alt="faq">
+                <img src="faq09.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0010.png" alt="faq">
+                <img src="faq10.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0011.png" alt="faq">
+                <img src="faq11.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0012.png" alt="faq">
+                <img src="faq12.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0013.png" alt="faq">
+                <img src="faq13.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0014.png" alt="faq">
+                <img src="faq14.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0015.png" alt="faq">
+                <img src="faq15.svg" alt="faq">
             </a>
         </div>
     </div>
     <div class="responsive">
         <div class="gallery">
             <a>
-                <img src="LLFAQ0016.png" alt="faq">
+                <img src="faq16.svg" alt="faq">
             </a>
         </div>
     </div>
