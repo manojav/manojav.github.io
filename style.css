@@ -192,3 +192,17 @@ div.gallery img {
     font-family: sans-serif;
     color: white;
 }
+i {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    font-size: 38px;
+    background: rgb(246,157,1);
+    color: white;
+    padding: 7px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease-in-out;
+}
