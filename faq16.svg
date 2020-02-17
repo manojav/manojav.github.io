@@ -14,7 +14,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0beta1 (08a003b, 2019-11-10)"
-   sodipodi:docname="faq14.svg">
+   sodipodi:docname="faq16.svg">
   <defs
      id="defs2">
     <rect
@@ -409,9 +409,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.4580599"
-     inkscape:cx="156.27519"
-     inkscape:cy="657.68143"
+     inkscape:zoom="0.60313823"
+     inkscape:cx="329.5719"
+     inkscape:cy="467.76212"
      inkscape:document-units="mm"
      inkscape:current-layer="g5472"
      inkscape:document-rotation="0"
@@ -452,102 +452,98 @@
         <g
            transform="matrix(0.85962853,0,0,1.0126656,333.60281,127.84409)"
            id="g5472">
-          <g
-             id="g6104">
-            <path
-               id="rect2501"
-               style="fill:#293234;fill-opacity:0.94902;stroke-width:0.641157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-               d="m -388.07787,-126.24512 h 244.28932 v 236.9957 h -244.28932 z"
-               inkscape:connector-curvature="0" />
-            <path
-               inkscape:connector-curvature="0"
-               d="m -388.07787,-126.24512 h 244.28749 v 32.90421 h -244.28749 z"
-               style="fill:#ffac2d;fill-opacity:1;stroke:none;stroke-width:0.641984;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
-               id="rect893" />
-            <path
-               id="path2505"
-               style="fill:#ffffff;fill-opacity:1;stroke-width:1.02136;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-               d="m -335.53815,-101.97992 a 24.930827,21.163205 0 0 1 -24.93083,21.163207 24.930827,21.163205 0 0 1 -24.93082,-21.163207 24.930827,21.163205 0 0 1 24.93082,-21.1632 24.930827,21.163205 0 0 1 24.93083,21.1632"
-               inkscape:connector-curvature="0" />
-            <text
-               xml:space="preserve"
-               style="font-size:21.2137px;line-height:1.25;font-family:sans-serif;fill:#ffac2d;fill-opacity:1;stroke-width:0.795512"
-               x="-346.54022"
-               y="-102.94828"
-               id="text5650"
-               transform="scale(1.0853695,0.92134521)"><tspan
-                 sodipodi:role="line"
-                 id="tspan5648"
-                 x="-346.54022"
-                 y="-102.94828"
-                 style="fill:#ffac2d;fill-opacity:1;stroke-width:0.795512">14</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-size:10.8845px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.408169"
-               x="-345.89169"
-               y="-99.220993"
-               id="text5654"
-               transform="scale(0.9311318,1.0739618)"><tspan
-                 sodipodi:role="line"
-                 id="tspan5652"
-                 x="-345.89169"
-                 y="-99.220993"
-                 style="font-weight:bold;fill:#ffffff;stroke-width:0.408169">How usage metering works?</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-size:12.3716px;line-height:1.25;font-family:sans-serif;stroke-width:0.463935"
-               x="-343.94455"
-               y="-62.865562"
-               id="text5658"
-               transform="scale(1.0853695,0.92134521)"><tspan
-                 sodipodi:role="line"
-                 id="tspan5656"
-                 x="-343.94455"
-                 y="-62.865562"
-                 style="font-weight:bold;fill:#ffffff;stroke-width:0.463935">live update of mouse actions</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-size:13.666px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.512474"
-               x="-352.52966"
-               y="-22.959921"
-               id="text5662"
-               transform="scale(1.0547492,0.94809268)"><tspan
-                 sodipodi:role="line"
-                 id="tspan5660"
-                 x="-352.52966"
-                 y="-22.959921"
-                 style="fill:#ffffff;stroke-width:0.512474">lidar.lionn is intuitive.</tspan><tspan
-                 sodipodi:role="line"
-                 x="-352.52966"
-                 y="-5.8774204"
-                 style="fill:#ffffff;stroke-width:0.512474"
-                 id="tspan5664">We value the</tspan><tspan
-                 sodipodi:role="line"
-                 x="-352.52966"
-                 y="11.20508"
-                 style="fill:#ffffff;stroke-width:0.512474"
-                 id="tspan5666">effectiveness of user's</tspan><tspan
-                 sodipodi:role="line"
-                 x="-352.52966"
-                 y="28.28758"
-                 style="fill:#ffffff;stroke-width:0.512474"
-                 id="tspan5668">time. We measure the</tspan><tspan
-                 sodipodi:role="line"
-                 x="-352.52966"
-                 y="45.370079"
-                 style="fill:#ffffff;stroke-width:0.512474"
-                 id="tspan5670">actual outcome by</tspan><tspan
-                 sodipodi:role="line"
-                 x="-352.52966"
-                 y="62.452583"
-                 style="fill:#ffffff;stroke-width:0.512474"
-                 id="tspan5672">discarding undone work</tspan><tspan
-                 sodipodi:role="line"
-                 x="-352.52966"
-                 y="79.53508"
-                 style="fill:#ffffff;stroke-width:0.512474"
-                 id="tspan5674">or live deletions.</tspan></text>
-          </g>
+          <text
+             transform="scale(0.76298379,1.3106438)"
+             id="text6133"
+             y="-37.626938"
+             x="-481.6424"
+             style="font-size:14.5495px;line-height:1.25;font-family:sans-serif;stroke-width:0.545606"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;fill:#ffffff;stroke-width:0.545606"
+               y="-37.626938"
+               x="-481.6424"
+               id="tspan6131"
+               sodipodi:role="line" /></text>
+          <path
+             inkscape:connector-curvature="0"
+             d="m -388.07787,-126.24512 h 244.28932 v 236.9957 h -244.28932 z"
+             style="fill:#293234;fill-opacity:0.94902;stroke-width:0.641157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+             id="rect2501" />
+          <path
+             id="rect893"
+             style="fill:#ffac2d;fill-opacity:1;stroke:none;stroke-width:0.641984;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m -388.07787,-126.24512 h 244.28749 v 32.90421 h -244.28749 z"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m -335.53815,-101.97992 a 24.930827,21.163205 0 0 1 -24.93083,21.163207 24.930827,21.163205 0 0 1 -24.93082,-21.163207 24.930827,21.163205 0 0 1 24.93082,-21.1632 24.930827,21.163205 0 0 1 24.93083,21.1632"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1.02136;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+             id="path2505" />
+          <text
+             transform="scale(1.0853695,0.92134521)"
+             id="text6590"
+             y="-102.70564"
+             x="-347.00818"
+             style="font-size:21.9967px;line-height:1.25;font-family:sans-serif;fill:#ffac2d;fill-opacity:1;stroke-width:0.824875"
+             xml:space="preserve"><tspan
+               style="fill:#ffac2d;fill-opacity:1;stroke-width:0.824875"
+               y="-102.70564"
+               x="-347.00818"
+               id="tspan6588"
+               sodipodi:role="line">16</tspan></text>
+          <text
+             transform="scale(1.0853695,0.92134521)"
+             id="text6594"
+             y="-116.00684"
+             x="-298.63321"
+             style="font-size:11.3111px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.424166"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;fill:#ffffff;stroke-width:0.424166"
+               y="-116.00684"
+               x="-298.63321"
+               id="tspan6592"
+               sodipodi:role="line">Will you supply people?</tspan></text>
+          <text
+             transform="scale(0.92782687,1.0777873)"
+             id="text6598"
+             y="-49.595455"
+             x="-399.32101"
+             style="font-size:18.4413px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.691547"
+             xml:space="preserve"><tspan
+               style="fill:#ffffff;stroke-width:0.691547"
+               y="-49.595455"
+               x="-399.32101"
+               id="tspan6596"
+               sodipodi:role="line"><tspan
+   id="tspan6600"
+   style="font-weight:bold;stroke-width:0.691547">No</tspan>!</tspan></text>
+          <text
+             transform="scale(1.0853695,0.92134521)"
+             id="text6604"
+             y="-15.654904"
+             x="-342.84375"
+             style="font-size:15.848px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.5943"
+             xml:space="preserve"><tspan
+               style="fill:#ffffff;stroke-width:0.5943"
+               y="-15.654904"
+               x="-342.84375"
+               id="tspan6602"
+               sodipodi:role="line">We supply software</tspan><tspan
+               id="tspan6606"
+               style="fill:#ffffff;stroke-width:0.5943"
+               y="4.1550951"
+               x="-342.84375"
+               sodipodi:role="line">only. Surely, we offer</tspan><tspan
+               id="tspan6608"
+               style="fill:#ffffff;stroke-width:0.5943"
+               y="23.965092"
+               x="-342.84375"
+               sodipodi:role="line">training and</tspan><tspan
+               id="tspan6610"
+               style="fill:#ffffff;stroke-width:0.5943"
+               y="43.775093"
+               x="-342.84375"
+               sodipodi:role="line">consultancy.</tspan></text>
         </g>
       </g>
     </g>
