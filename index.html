@@ -1,79 +1,90 @@
-﻿<!--
+﻿
+<!--
     lidarLionnBasic.html
     copyright (c) 1074 vectors Private Limited 2020
-    version: 30-Dec-2019 
+    version: 30-Dec-2019
 -->
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <html>
-    <title>lidar.lionn</title>
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74257275-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<title>lidar.lionn</title>
 
-        gtag('config', 'UA-74257275-2');
-    </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link type="text/css" href="style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 300) {
-                    $('i').css({
-                        "opacity": "1", "pointer-events": "auto"
-                    });
-                }
-                else {
-                    $('i').css({
-                        "opacity": "0", "pointer-events": "none"
-                    });
-                }
-            });
-            $('i').click(function () {
-                $('html').animate({ scrollTop: 0 }, 500);
-            });
-        });
-    </script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74257275-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-74257275-2');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link type="text/css" href="style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+          $('i').css({
+            "opacity": "1",
+            "pointer-events": "auto"
+          });
+        } else {
+          $('i').css({
+            "opacity": "0",
+            "pointer-events": "none"
+          });
+        }
+      });
+      $('i').click(function() {
+        $('html').animate({
+          scrollTop: 0
+        }, 500);
+      });
+    });
+  </script>
 
 </head>
+
 <body style="color:#f69d01; background-color: rgba(251, 212, 148,0.0)">
-    
-    <i class="fas fa-chevron-up"></i>
 
-    <div class="navbar">
-        <ul class="nav">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-    <div id="home">
-        <img src="ll_logo.svg" style="width:100%; height:auto;" alt="ll_logo">
-    </div>
+  <i class="fas fa-chevron-up"></i>
 
-    <div id="home" class="video-container">
+  <div class="navbar">
+    <ul class="nav">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#downloads">Downloads</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div id="home">
+    <img src="ll_logo.svg" style="width:100%; height:auto;" alt="ll_logo">
+  </div>
 
-        <video autoplay loop class="video-background" muted plays-inline>
-        <source src="homepage_video.webm" type="video/webm">
+  <div id="home" class="video-container">
+
+    <video autoplay loop class="video-background" muted plays-inline>
+      <source src="homepage_video.webm" type="video/webm">
     </video>
-        <!--<iframe class="video-background"
+    <!--<iframe class="video-background"
              src="https://www.youtube.com/embed/oX04g3XSMNM?showinfo=0;controls=0;autoplay=1;playlist=oX04g3XSMNM&loop=1" autoplay="autoplay">
         </iframe>-->
-<!--         <div class="overlay-desc">
+    <!--         <div class="overlay-desc">
             <h1 class="text-over-video" style="font-size:1.8vw">Geospatial mapping simplified</h1>
         </div> -->
 
-    </div>
+  </div>
 
-    <!--<div>
+  <!--<div>
         <p style="color:gray; font-size:3.3vw;text-align:center; font-family:Arial">
             enabling millions for <b>geospatial</b> jobs<br />
             &nbsp a <b>billion$</b> market <sub><sub>is now accessible to</sub></sub><br />
@@ -81,161 +92,175 @@
         </p>
     </div>-->
 
-    <div>
-        <br />
-        <br />
-        <p style="color:rgba(0,0,0,0.6); font-size:3.6vw;text-align:center; font-family:Arial; margin-left:15px;">
-            digitize <b>Geospatial</b> in
-        </p>
-        <div style="padding:2%">
-            <div>
-                <img src="english.svg" class="image" alt="sf" style="margin-left:10%; margin-top:3%" />
-                <img src="telugu.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
-                <img src="hindi.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
-            </div>
-            <div>
-                <img src="kannada.svg" class="image" alt="sf" style="margin-left:10%; margin-top:3%" />
-                <img src="tamil.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
-                <img src="malayalam.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
-            </div>
-            <div>
-                <img src="bangla.svg" class="image" alt="sf" style="margin-left:10%; margin-top:3%" />
-                <img src="marathi.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
-                <img src="japanese.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
-            </div>
-            <!--<div>
+  <div>
+    <br />
+    <br />
+    <p style="color:rgba(0,0,0,0.6); font-size:3.6vw;text-align:center; font-family:Arial; margin-left:15px;">
+      digitize <b>Geospatial</b> in
+    </p>
+    <div style="padding:2%">
+      <div>
+        <img src="english.svg" class="image" alt="sf" style="margin-left:10%; margin-top:3%" />
+        <img src="telugu.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
+        <img src="hindi.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
+      </div>
+      <div>
+        <img src="kannada.svg" class="image" alt="sf" style="margin-left:10%; margin-top:3%" />
+        <img src="tamil.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
+        <img src="malayalam.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
+      </div>
+      <div>
+        <img src="bangla.svg" class="image" alt="sf" style="margin-left:10%; margin-top:3%" />
+        <img src="marathi.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
+        <img src="japanese.svg" class="image" alt="sf" style="margin-left:13%; margin-top:3%" />
+      </div>
+      <!--<div>
             <img src="malayalam.svg" class="image" alt="sf" style="margin-left:32%; margin-top:3%" />
             <img src="-japanese.svg" class="image" alt="sf" style="margin-left:16%; margin-top:3%" />-->
-        </div>
-        <div>
-            <p style="color:rgba(0,0,0,0.55); font-size:2.6vw; text-align:center; font-family:Helvetica; margin-left:10px;">
-                designed for under graduates; amateurs can digitize with <2 hours of training
-            </p>
-        </div>
     </div>
-    <br />
-
-    <div class="text">
-        <div>
-            <img src="ll_logo_faq.svg" class="logo-img" />
-        </div>
-        <h1>
-            <p>
-                is a geospatial software <br />
-                with minimalistic UI;<br />
-                it is apt for digitization / production grade workforce.<br />
-            </p>
-
-            <hr />
-
-            <p>
-                > remote supervisor dashboard<br />
-                > periodic management reports on efficiency of the team<br />
-                > available in 7 Indic languages, English and Japanese<br /><br />
-            </p>
-        </h1>
-    </div>
-    <br />
-    <br />
     <div>
-        <h1 style="font-family:sans-serif; text-align: center; font-size: 3.5vw; color: rgb(246,157,1);">
-            <u>lidar.lionn simplify your team</u>
-        </h1>
-        <!--<hr class="uline" />-->
-        <p style="text-align:center; margin-top:3%; color: rgba(0,0,0,0.6); font-family: monospace; font-size: 3vw">100 Experts</p>
-        <img src="arrows.svg" style="margin-left: 49%; margin-top: 1%; width:1.8%; height: auto;" />
-        <p style="text-align:center; margin-top:1%; color: rgba(0,0,0,0.6); font-family: monospace; font-size: 3vw">20 Experts + 80 amateurs</p>
-
-        <p style="text-align:center; margin-top:1%; color: rgba(0,0,0,0.55); font-family: sans-serif; font-size: 2.5vw">
-            Giving jobs to <b>undergraduates</b> studied at local medium schools
-        </p>
-        <div style="background:rgba(184,230,243,0.5); height: 11vw; width: 100%; margin: auto; margin-top: 2.5%">
-            <p style="text-align:center; font-size:2.3vw; color:rgb(22,68,80);; padding: 1.5%; font-family: sans-serif;">
-                "Computer literacy is not important. Only common sense is expected!. <br />We only gather team members when we
-                sign contract with our customers in Sweden.”<br /> – Bipin Kumar, GM GIS operations, Mega Tech, Bengaluru
-            </p>
-        </div>
+      <p style="color:rgba(0,0,0,0.55); font-size:2.6vw; text-align:center; font-family:Helvetica; margin-left:10px;">
+        designed for under graduates; amateurs can digitize with <2 hours of training </p>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <div id="faq">
-        <div>
-            <h1 style="color: rgba(41,50,52,0.9); text-align: center; font-family: sans-serif">
-                Frequently Asked Questions
-            </h1>
-        </div>
-        <div class="responsive-cards">
-            <div class="gallery">
-                <a href="faq.html">
-                    <img src="faq01.svg" width="600" height="400" alt="faq">
-                </a>
-            </div>
-        </div>
-        <div class="responsive-cards">
-            <div class="gallery">
-                <a href="faq.html">
-                    <img src="faq02.svg" width="600" height="400" alt="faq">
-                </a>
-            </div>
-        </div>
-        <div class="responsive-cards">
-            <div class="gallery">
-                <a href="faq.html">
-                    <img src="faq03.svg" width="600" height="400" alt="faq">
-                </a>
-            </div>
-        </div>
-        <div class="responsive-cards">
-            <div class="gallery">
-                <a href="faq.html">
-                    <img src="faq04.svg" width="600" height="400" alt="faq">
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="wrapper-btn">
-        <a href="faq.html">
-            <button class="btn see-more">See more</button>
-        </a>
-    </div>
+  </div>
+  <br />
 
-    <!-- break-->
-    <br>
-    <br>
-    <br>
-    <p id="contact" style="font-size:4vw;text-align:center;color: rgba(0,0,0,0.5); font-family: sans-serif; background: rgba(0,0,0,0.05)">
-        lidar.lionn is a minimalistic software <br />
-        surprisingly simple for your team!<br />
-        contact us to know more...
+  <div class="text">
+    <div>
+      <img src="ll_logo_faq.svg" class="logo-img" />
+    </div>
+    <h1>
+      <p>
+        is a geospatial software <br />
+        with minimalistic UI;<br />
+        it is apt for digitization / production grade workforce.<br />
+      </p>
 
+      <hr />
+
+      <p>
+        > remote supervisor dashboard<br />
+        > periodic management reports on efficiency of the team<br />
+        > available in 7 Indic languages, English and Japanese<br /><br />
+      </p>
+    </h1>
+  </div>
+  <br />
+  <br />
+  <div>
+    <h1 style="font-family:sans-serif; text-align: center; font-size: 3.5vw; color: rgb(246,157,1);">
+      <u>lidar.lionn simplify your team</u>
+    </h1>
+    <!--<hr class="uline" />-->
+    <p style="text-align:center; margin-top:3%; color: rgba(0,0,0,0.6); font-family: monospace; font-size: 3vw">100 Experts</p>
+    <img src="arrows.svg" style="margin-left: 49%; margin-top: 1%; width:1.8%; height: auto;" />
+    <p style="text-align:center; margin-top:1%; color: rgba(0,0,0,0.6); font-family: monospace; font-size: 3vw">20 Experts + 80 amateurs</p>
+
+    <p style="text-align:center; margin-top:1%; color: rgba(0,0,0,0.55); font-family: sans-serif; font-size: 2.5vw">
+      Giving jobs to <b>undergraduates</b> studied at local medium schools
     </p>
-    <br>
-    <br>
-    <br>
-    <div style="background: #3e3e35">
-        <h1 style="font-family:monospace; text-align: center; font-size: 3.5vw; color: #ffffcc; padding: 1%">
-            <u>Contact Us</u>
-        </h1>
-        <!--<hr style="margin-right: 39%; margin-left: 39%; height: 4px; border-top: 4px solid rgba(0,0,0,0.2);" />-->
+    <div style="background:rgba(184,230,243,0.5); height: 11vw; width: 100%; margin: auto; margin-top: 2.5%">
+      <p style="text-align:center; font-size:2.3vw; color:rgb(22,68,80);; padding: 1.5%; font-family: sans-serif;">
+        "Computer literacy is not important. Only common sense is expected!. <br />We only gather team members when we
+        sign contract with our customers in Sweden.”<br /> – Bipin Kumar, GM GIS operations, Mega Tech, Bengaluru
+      </p>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <div id="faq">
+    <div>
+      <h1 style="color: rgba(41,50,52,0.9); text-align: center; font-family: sans-serif">
+        Frequently Asked Questions
+      </h1>
+    </div>
+    <div class="responsive-cards">
+      <div class="gallery">
+        <a href="faq.html">
+          <img src="faq01.svg" width="600" height="400" alt="faq">
+        </a>
+      </div>
+    </div>
+    <div class="responsive-cards">
+      <div class="gallery">
+        <a href="faq.html">
+          <img src="faq02.svg" width="600" height="400" alt="faq">
+        </a>
+      </div>
+    </div>
+    <div class="responsive-cards">
+      <div class="gallery">
+        <a href="faq.html">
+          <img src="faq03.svg" width="600" height="400" alt="faq">
+        </a>
+      </div>
+    </div>
+    <div class="responsive-cards">
+      <div class="gallery">
+        <a href="faq.html">
+          <img src="faq04.svg" width="600" height="400" alt="faq">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="wrapper-btn">
+    <a href="faq.html">
+      <button class="btn see-more">See more</button>
+    </a>
+  </div>
 
-        <br />
-        <br />
-        <p style="font-size:5vw;text-align:center;">
-            <a href="mailto:lidarlionn@1074vectors.com" style="font-size: 3vw; color: white;">lidarlionn@1074vectors.com</a>
-            <br />
-            <a href="tel:+918137850656" style=" font-size: 3vw; color: white;"> +91 81378 50656 </a>
-        </p>
-    </div>
-    <div style="background: #f5f5f0; margin-top:2%;">
-        <picture>
-            <img src="da_vinci.svg" class="responsive slide-small-device" alt="lidarlionn" />
-            <!--<img src="slide06.png" class="responsive slide-large-device" style="width:100%; height: auto">-->
-            <img src="da_vinci.svg" class="responsive slide-large-device" style="width:100%; height: auto">
-        </picture>
-    </div>
+  <!-- break-->
+  <br>
+  <br>
+  <br>
+  <div id="downloads">
+    <p id="trial" style="font-size:4vw;text-align:center;color: rgba(0,0,0,0.5); font-family: sans-serif; background: rgba(0,0,0,0.05)">
+      Download a fully functional 20 day trial<br />
+      <!--<a href="downloads/lidarlion-plains_setup_1.4.4.002.exe">lidar.lionn-plains</a> -->
+      <a href="downloads/lidarlion-plains_setup_1.4.4.002.exe">
+        <button class="btn btn-primary btn-link btn-lg active "> Click here to download Self extractable executable</button>
+      </a>
+    </p>
+  </div>
+
+  <!-- break-->
+  <br>
+  <br>
+  <br>
+  <p id="contact" style="font-size:4vw;text-align:center;color: rgba(0,0,0,0.5); font-family: sans-serif; background: rgba(0,0,0,0.05)">
+    lidar.lionn is a minimalistic software <br />
+    surprisingly simple for your team!<br />
+    contact us to know more...
+
+  </p>
+  <br>
+  <br>
+  <br>
+  <div style="background: #3e3e35">
+    <h1 style="font-family:monospace; text-align: center; font-size: 3.5vw; color: #ffffcc; padding: 1%">
+      <u>Contact Us</u>
+    </h1>
+    <!--<hr style="margin-right: 39%; margin-left: 39%; height: 4px; border-top: 4px solid rgba(0,0,0,0.2);" />-->
+
+    <br />
+    <br />
+    <p style="font-size:5vw;text-align:center;">
+      <a href="mailto:lidarlionn@1074vectors.com" style="font-size: 3vw; color: white;">lidarlionn@1074vectors.com</a>
+      <br />
+      <a href="tel:+918137850656" style=" font-size: 3vw; color: white;"> +91 81378 50656 </a>
+    </p>
+  </div>
+  <div style="background: #f5f5f0; margin-top:2%;">
+    <picture>
+      <img src="da_vinci.svg" class="responsive slide-small-device" alt="lidarlionn" />
+      <!--<img src="slide06.png" class="responsive slide-large-device" style="width:100%; height: auto">-->
+      <img src="da_vinci.svg" class="responsive slide-large-device" style="width:100%; height: auto">
+    </picture>
+  </div>
 
 
 </body>
+
 </html>
