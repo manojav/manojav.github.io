@@ -216,11 +216,27 @@
   <br>
   <br>
   <div id="downloads">
-    <p id="trial" style="font-size:4vw;text-align:center;color: rgba(0,0,0,0.5); font-family: sans-serif; background: rgba(0,0,0,0.05)">
-      Download a fully functional 20 day trial<br />
+    <script>
+      function consent_changed(consentCheckBox){
+          //If the checkbox has been checked
+          if(consentCheckBox.checked){
+              //Set the disabled property to FALSE and enable the button.
+              document.getElementById("download_button").disabled = false;
+          } else{
+              //Otherwise, disable the submit button.
+              document.getElementById("download_button").disabled = true;
+          }
+      }
+    </script>
+    <p style="font-size:4vw;text-align:center;color: rgba(0,0,0,0.5); font-family: sans-serif; background: rgba(0,0,0,0.05)">
+      Download a fully functional 20 day trial
+    </p>
+    <p id="trial_download" style="padding-left:10%; padding-right:10%;font-size:2vw;text-align: justify;color: rgba(0,0,0,0.5); font-family: sans-serif; background: rgba(0,0,0,0.05)">
+      Note that, certain  usage information from the application shall be collected for improving the product. No personal information is collected.<br />
+      <input type="checkbox" id="consent" value="1" onclick="consent_changed(this)"/> I Agree </input>
       <!--<a href="downloads/lidarlion-plains_setup_1.4.4.002.exe">lidar.lionn-plains</a> -->
       <a href="downloads/lidarlion-plains_setup_1.4.4.002.exe">
-        <button class="btn btn-primary btn-link btn-lg active "> Click here to download self extractable executable</button>
+        <button style="font-size:2vw" id="download_button" class="btn btn-primary btn-link btn-lg active" disabled> Download self extracting exe</button>
       </a>
     </p>
   </div>
